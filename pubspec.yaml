@@ -1,0 +1,33 @@
+name: mini_campus_core_components
+description: part of MiniCampus core components
+version: 0.0.1
+homepage: https://github.com/DonnC-Lab
+publish_to: none
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # state management
+  flutter_riverpod: ^2.0.0-dev.4
+
+  flutter_form_builder: ^7.1.1
+  fluttertoast: ^8.0.9
+  intl: ^0.17.0
+  relative_scale: ^2.0.0
+  flash: ^2.0.3+2
+
+  # custom
+  mc_core_constants:
+    path: ../mc_core_constants
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
