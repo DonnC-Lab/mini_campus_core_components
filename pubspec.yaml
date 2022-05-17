@@ -23,7 +23,7 @@ dependencies:
 
   # custom
   mc_core_constants:
-    path: ../mc_core_constants
+    git: https://github.com/DonnC-Lab/mc_core_constants.git
   
 dev_dependencies:
   flutter_test:
